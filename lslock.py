@@ -70,7 +70,8 @@ def check_file(file, locks):
 
 def check_dir(dir_path, locks):
     """
-    Check for all locked files beneath a directory and return dir to stack
+    Checks for all locked files beneath the given directory and returns
+    list of subdirectories
     """
     dirs = []
     try:
